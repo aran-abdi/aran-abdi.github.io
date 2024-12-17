@@ -1,2 +1,204 @@
-comming soon..
-AranAbdi@yahoo.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aran Abdi | Full Stack JavaScript Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #1e1e2d;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Project Card */
+        .project-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-card .card-content {
+            padding: 1rem;
+        }
+        .project-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: #1e1e2d;
+        }
+        .project-card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .project-card .tech {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #444;
+            margin-top: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #1e1e2d;
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Aran Abdi</h1>
+        <p>Full Stack JavaScript Developer</p>
+    </header>
+
+    <!-- Projects Section -->
+    <div class="container">
+        <h2 style="text-align: center; margin-bottom: 2rem;">My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Cards -->
+            <div class="project-card">
+                <img src="./images/date-mate.jpg" alt="Date Mate">
+                <div class="card-content">
+                    <h3>Date Mate</h3>
+                    <p>A modern dating app connecting users with responsive mobile experiences.</p>
+                    <p class="tech">Technologies: Nest.js & React Native</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/the-first-bite.jpg" alt="The First Bite">
+                <div class="card-content">
+                    <h3>The First Bite</h3>
+                    <p>A cross-platform dating app enabling seamless real-time interactions.</p>
+                    <p class="tech">Technologies: Nest.js & Flutter</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/adymob.jpg" alt="Adymob Web Application">
+                <div class="card-content">
+                    <h3>Adymob Web Application</h3>
+                    <p>Helps Iranian developers manage ads across platforms like Google Ads.</p>
+                    <p class="tech">Technologies: Laravel & Next.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/sam-city.jpg" alt="Sam City">
+                <div class="card-content">
+                    <h3>Sam City Web Application</h3>
+                    <p>Inventory and ranking management for housing cooperatives.</p>
+                    <p class="tech">Technologies: Laravel, Inertia.js & Vue.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/tournament.jpg" alt="Sports Tournament Management">
+                <div class="card-content">
+                    <h3>Sports Tournament Management</h3>
+                    <p>Manages sports tournaments with advanced competitive algorithms.</p>
+                    <p class="tech">Technologies: Laravel & Vue.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/jibimo.jpg" alt="Jibimo Payment Assistant">
+                <div class="card-content">
+                    <h3>Jibimo Payment Assistant</h3>
+                    <p>Front-end development for an advanced payment solution system.</p>
+                    <p class="tech">Technologies: Vue.js & React.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/delexi.jpg" alt="Delexi Web Application">
+                <div class="card-content">
+                    <h3>Delexi Web Application</h3>
+                    <p>Backend development for ad management and Amazon product sales.</p>
+                    <p class="tech">Technologies: Nest.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/yuzdex.jpg" alt="YUZDEX Online Exchange">
+                <div class="card-content">
+                    <h3>YUZDEX Online Exchange</h3>
+                    <p>Modern cryptocurrency exchange platform offering fast and secure trading.</p>
+                    <p class="tech">Technologies: Nest.js & Nuxt.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/kurdlabs.jpg" alt="KurdLabs Streaming Platform">
+                <div class="card-content">
+                    <h3>KurdLabs Streaming Platform</h3>
+                    <p>A gamer-focused streaming platform supporting in-game point exchanges.</p>
+                    <p class="tech">Technologies: Laravel & Next.js</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/booking.jpg" alt="Barbershop Appointment Booking">
+                <div class="card-content">
+                    <h3>Barbershop Appointment Booking</h3>
+                    <p>A startup helping barbers manage online appointment bookings efficiently.</p>
+                    <p class="tech">Technologies: Laravel, Inertia.js & Vue.js</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Aran Abdi | Full Stack JavaScript Developer</p>
+    </footer>
+</body>
+</html>
